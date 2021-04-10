@@ -18,4 +18,9 @@ export class AppController {
   getProfile(@Req() req) {
     return { id: req.user.userId, name: req.user.userName };
   }
+
+  @Get('version')
+  getVersion() {
+    return { apiVersion: 1.0 };
+  }
 }

@@ -4,7 +4,7 @@
     {
       "type": "node",
       "request": "attach",
-      "name": "Debug: nest-todo-api",
+      "name": "Debug on docker",
       "remoteRoot": "/app",
       "localRoot": "${workspaceFolder}",
       "protocol": "inspector",
